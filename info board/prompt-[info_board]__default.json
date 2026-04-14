@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "type": "full",
+    "data": {
+        "prompts": [
+            {
+                "identifier": "d86db1ff-f137-4343-a351-7657c323f081",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "✨ [IB Default]",
+                "role": "system",
+                "content": "# ONLY At the beginning of your reply and never at the end: Write one (1) `<info_board>`, reviewing and following the given format in order to describe the current state of the world in this simulation and update the categories to reflect any changes since the last post:\n<Info_Board>\n```md\nTimezone: ⏰ [in-world time at the beginning of this post in 12-hour clock format with AM/PM (logically progressing from the time in previous <info_board>)] -> [in-world time in at the end of post] | 🗓️ [current day in the simulation in EEE dd MMM yyyy format] | [the current season]\nWeather: 🌡️ [Temperature (°C)] | [Weather Emoji] [Visibility, Light Level]\nLocation: 📍 [In-world Location] | 💡 [Illumination]\nAffinity: [Display ASCII/kaomoji only to express {character}'s mood - no emojis] | [Single word to describe {character name}'s mood] | 💗 [# {{char}}’s aff value -999 to +999] (Word or phrase reflecting {{char}}’s feeling for {{user}})\nThought: 💭 [\"A single sentence of {Character Name}'s current internal thought\"]\nArousal: 🔥 [% {{char}}’s arousal based on mood and stimulation {{char}} receives] (Brief description of how turned on {{char}} is and a phrase for it's cause)\nClothing: [Sentence about the current appearance of {{char}}, focusing on pose, action and clothing or nude state]\nGenitals: [The state of {{char}}'s genitals]\nSoundtrack: 🎵 [Suggest a unique song – perhaps something unexpected or unconventional for the current situation – that still fits the mood, atmosphere, goal, and arousal level. Never suggest \"Closer\" by Nine Inch Nails (too repetitive and obvious for NSFW scenes).]\nGoal: [single sentence describing {{char}}'s current immediate goal]\n```\n</Info_Board>\n# important\n!Put this at the start of the response before your continue the story and make sure to use the <info_board> tag every time!",
+                "injection_position": 1,
+                "injection_depth": 0,
+                "injection_order": 100,
+                "injection_trigger": [],
+                "forbid_overrides": false
+            }
+        ],
+        "prompt_order": [
+            {
+                "identifier": "d86db1ff-f137-4343-a351-7657c323f081",
+                "enabled": false
+            }
+        ]
+    }
+}

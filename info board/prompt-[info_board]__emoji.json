@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "type": "full",
+    "data": {
+        "prompts": [
+            {
+                "identifier": "1d05a3ef-c3ff-4e77-ae79-0a57194afb89",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "✨ [IB Emoji]",
+                "role": "system",
+                "content": "MANDATORY: Include this Info Board at the START of every reply. Generate one <Info_Board> using this exact format to describe the current simulation state:\n\n<Info_Board>\nTimezone: [in-world time at the beginning of this post in 24-hour format (logically progressing from the time in previous <info_board>)] -> [in-world time at the end of post]\nDate: [current day in the simulation in EEE dd MMM yyyy format] | [the current season]\nWeather: [Temperature (°C)] | [Weather Emoji] [Brief descriptive condition (e.g. drizzle, steady rain, storm, heavy fog, snowfall)]\nLocation: [In-world Location]\nMood: [ASCII/kaomoji only to express {{char}}'s mood - no unicode emojis] | [Single word describing {{char}}'s mood]\nAffinity: [{{char}}'s affinity value -999 to +999] (Reason why the number increase or decrease)\nClothing: [Sentence describing {{char}}'s current appearance, posture, and clothing or lack thereof]\n</Info_Board>\n\nPlace this before any narrative content in every response.",
+                "injection_position": 1,
+                "injection_depth": 0,
+                "injection_order": 100,
+                "injection_trigger": [],
+                "forbid_overrides": false
+            }
+        ],
+        "prompt_order": [
+            {
+                "identifier": "1d05a3ef-c3ff-4e77-ae79-0a57194afb89",
+                "enabled": true
+            }
+        ]
+    }
+}
